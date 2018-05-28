@@ -1,0 +1,327 @@
+         /*     * {
+                outline: solid red 1px;
+            }*/
+/*-----------------------------------------GENERALES--------------------------------*/ 
+/*----------HEADER--------*/
+
+body{
+  padding: 0% 0%;
+
+
+}
+  
+  h1{
+    text-align: center;
+  }
+  h3{
+    margin-bottom: 4%;
+  }
+    /** {
+                outline: solid red 1px;
+            }**/
+ 
+    .arriba{
+      margin-top: 3%;
+    }
+    .abajo{
+      margin-bottom: 3%;
+      margin-left: 9%;
+    }
+
+ 
+header{
+  padding: 0% 20.8%;
+  background-color: black;
+
+}
+.logo{
+  /*font-family: 'Bungee Inline', cursive; UNA*/ 
+ /* font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;  DOS*/
+
+/*font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Frijole', cursive; TRES*/
+color: #A95291;padding-top:6%;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Monoton', cursive;
+font-size:3.5vw;
+
+}
+span{
+  font-size: 1.5em;
+}
+
+ 
+/*--------------------------NAVEGADOR Y LOGO---------*/
+
+img#menu{
+    width: 5%;
+    position: absolute;
+    right: 6%;
+    top: 6%;
+    display: none;
+}
+  
+ a{
+  color:white;
+}
+.color{
+  color:white;
+  font-weight: bold;
+  font-size: 2em;
+  margin-right: 80%;
+}
+nav{
+  padding-top: 1%;
+  padding-bottom: 0%;
+}
+
+
+
+ /*-------FOOTER---*/
+
+   footer{
+  
+    padding:5% 0%;
+    background-color:black;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-family: 'Sintony', sans-serif;
+     border-left: none;
+     border-right: none;
+     border-bottom: none;
+     border-top: 7px solid #A95291;
+   }
+
+  /*-------CONTENIDO EN EL CUERPO------*/
+
+  .cuerpo{
+    padding-left: 1%;
+    padding-right: 1%;
+
+  
+}
+.select {
+     background: transparent;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+    margin-right:10px;
+    width:100px;
+     color:white;
+}     
+.select:focus{ outline: none;}
+
+
+
+div#contenedorGeneral{
+  align-items: center;
+  width: 80%;
+  background-color: #F9CEFF;
+  margin: 0 auto;
+
+ 
+  
+  margin-bottom: 1%;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Questrial', sans-serif;
+
+}
+p{
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'Rokkitt', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Questrial', sans-serif;
+
+}
+
+
+
+/*-----------------------------------DIFERENTES--------------------------------------------*/
+
+/* -----CARRUSELL / PROXIMOS EXTRENOS-----(Julia)*/
+    div#contendo1{
+      width: 100%;
+
+    }
+  .fondo{
+       background-image: url(../imagenes/cine1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+    .portada1Letra{
+    	color:white;
+    	font-size: 2.5em;
+    }
+    .alinearLetra{
+    	width: 60%;
+    	padding-bottom: 40%;
+
+    }
+     .alinearLetra2{
+    	width: 60%;
+    	padding-bottom: 29%;
+
+    }
+
+ /*-----estrenos----*/
+
+ .titulo3{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2vw;
+  border:1px solid black;
+  box-shadow: 3px 8px 20px black;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  margin-right: 35%;
+
+ }
+
+ .espacioExtrenos{
+  margin-bottom: 5%;
+  padding-top: 1%;
+  border:2px solid black;
+  width:100%;
+  align-content: center;
+
+
+ }
+
+ 
+ /* -----CARTELERA-----(Julia)    no se me arreglan las imagenes dinamico, no hay manera asi que les he cambiado*/
+
+
+   /*-----------------DESCRIPCION------*/
+.foto{
+  margin-bottom:10px;
+}
+.imagen{
+   align-items: center;
+   border:2px solid black;
+   margin-bottom: 5px;  
+   color:white;
+    
+}
+.imagen_a {
+        text-align:center;
+        font-weight: 1.2em;
+        align-items: center;
+        padding:5px;
+        height:90px;
+        background-color: #A95291;       
+        width:205px;
+        color:white;      
+     
+    }
+.imagen_a a{
+      color:red;
+    }
+
+.margenDescripcion{
+  padding-bottom: 3%;
+}
+
+ul{
+  list-style: none;
+}
+.justificar{
+  text-align: justify;
+  margin-top: 1%;
+  border:1px solid black;
+  box-shadow: 8px 8px 20px black;
+}
+
+  .video{
+    width: 50%;
+  }
+  div#trailer{
+    text-align: center;
+    padding-right: 4.5%;
+  }
+
+
+
+
+
+
+
+
+ /*--------------------Media Queries------------------*/
+
+
+
+
+
+@media(max-width:850px){
+  a{
+    font-size: 0.9em;
+
+  }
+   #contenedorGeneral{
+     width:100%;
+   }
+}
+ 
+
+ @media(max-width:760px){
+   #contenedorGeneral{
+     width:100%;
+   }
+    img#menu{
+    width: 9%;
+    right: 8%;
+    top: 4%;
+    display: inline;
+     
+    }
+    body{
+    background-color: #F9CEFF;}
+    
+    nav{
+        display: none;
+    }
+}
+  .imagen_a {
+       margin-left: 0px;      
+       height:8%;   
+       width:95%;      
+       z-index:5;
+    }
+ 
+
+h3{
+  font-size: 1vw;
+}
+li{
+  text-align: center;
+}
+.logo{
+  margin-bottom: 0;
+}
+
+@media(max-width:660px){
+   body{
+    background-color: #F9CEFF;}
+  div#contenedorGeneral{
+     width:100%;
+   } 
+ 
+  }
+
+
+
+
+
+ 
+
+
+
+
+
